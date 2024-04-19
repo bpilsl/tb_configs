@@ -1,0 +1,18 @@
+[global]
+repeatScans = 1
+allowNested = 0 # overrides local nested arguments
+#configPrefix = "path/to/folder/scanned" // optional
+timeBasedScan = 1 # 1 = true :)
+timePerStep = 61 #in seconds for now
+#nEventsPerStep   = 200
+
+[0]
+default = .95
+start = .92
+stop = 1.3
+step = .15
+name = Producer.RD50_MPW4_0
+#eventCounter = Producer.my_pd0
+parameter = voltage_value
+
+
